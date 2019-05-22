@@ -1,5 +1,4 @@
 C:\Users\user\source\repos\MapService\MapService\obj\Debug\MapService.csprojAssemblyReference.cache
-C:\Users\user\source\repos\MapService\MapService\obj\Debug\MapService.Form1.resources
 C:\Users\user\source\repos\MapService\MapService\obj\Debug\MapService.Properties.Resources.resources
 C:\Users\user\source\repos\MapService\MapService\obj\Debug\MapService.csproj.GenerateResource.cache
 C:\Users\user\source\repos\MapService\MapService\obj\Debug\MapService.csproj.CoreCompileInputs.cache
@@ -53,3 +52,5 @@ C:\Users\wei\Desktop\gmap\MapService\obj\Debug\MapService.csproj.CoreCompileInpu
 C:\Users\wei\Desktop\gmap\MapService\obj\Debug\MapService.csproj.CopyComplete
 C:\Users\wei\Desktop\gmap\MapService\obj\Debug\MapService.exe
 C:\Users\wei\Desktop\gmap\MapService\obj\Debug\MapService.pdb
+C:\Users\user\source\repos\MapService\MapService\obj\Debug\MapService.MainForm.resources
+C:\Users\user\source\repos\MapService\MapService\obj\Debug\MapService.Veiw.ReportForm.resources

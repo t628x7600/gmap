@@ -126,7 +126,7 @@ namespace MapService.Model
 
         public async Task<string> GeocoderAsync(PointLatLng latLng)
         {
-            string key = "AIzaSyA9cQx9K4sOFlibH61lujKHuGAokbEmy9g";
+            string key = "AIzaSyDbtZi5JT1peAMCYuX2otiokk3KjB4GTH8";
             string googleApi = string.Format(@"https://maps.googleapis.com/maps/api/geocode/json?" +
                 $"latlng={latLng.Lat},{latLng.Lng}&key={key}");
 
@@ -149,7 +149,9 @@ namespace MapService.Model
                     // Above three lines can be replaced with new helper method below
                     // string responseBody = await client.GetStringAsync(uri);
                     var result = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseBody);
-
+                    //result["results"]
+                    //var address = JsonConvert.DeserializeObject<Dictionary<string, object>>(result["results"].ToString());
+                    //["formatted_address"]
                     return responseBody;
                 }
                 catch (HttpRequestException e)

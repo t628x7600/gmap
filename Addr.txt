@@ -1,0 +1,591 @@
+{
+   "plus_code" : {
+      "compound_code" : "P8F6+VX 台灣高雄市鼓山區高雄",
+      "global_code" : "7QJ2P8F6+VX"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "98",
+               "short_name" : "98",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "瑞屏路82巷",
+               "short_name" : "瑞屏路82巷",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "楠梓區",
+               "short_name" : "楠梓區",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "高雄市",
+               "short_name" : "高雄市",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "台灣",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "811",
+               "short_name" : "811",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "811台灣高雄市楠梓區瑞屏路82巷98號",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.724639,
+               "lng" : 120.312377
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7259879802915,
+                  "lng" : 120.3137259802915
+               },
+               "southwest" : {
+                  "lat" : 22.7232900197085,
+                  "lng" : 120.3110280197085
+               }
+            }
+         },
+         "place_id" : "ChIJP6mCW7wPbjQRoGkk_wqDp78",
+         "plus_code" : {
+            "compound_code" : "P8F6+VX 台灣高雄市鼓山區高雄",
+            "global_code" : "7QJ2P8F6+VX"
+         },
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "4號",
+               "short_name" : "4號",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "海專路235巷",
+               "short_name" : "海專路235巷",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "楠梓區",
+               "short_name" : "楠梓區",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "高雄市",
+               "short_name" : "高雄市",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "台灣",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "811",
+               "short_name" : "811",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "811台灣高雄市楠梓區海專路235巷4號",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.724544,
+               "lng" : 120.312625
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7258929802915,
+                  "lng" : 120.3139739802915
+               },
+               "southwest" : {
+                  "lat" : 22.7231950197085,
+                  "lng" : 120.3112760197085
+               }
+            }
+         },
+         "place_id" : "ChIJb6q4RLwPbjQRvOZtoTW0vlg",
+         "plus_code" : {
+            "compound_code" : "P8F7+R3 台灣高雄市鼓山區高雄",
+            "global_code" : "7QJ2P8F7+R3"
+         },
+         "types" : [ "establishment", "point_of_interest" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "5",
+               "short_name" : "5",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "海專路235巷",
+               "short_name" : "海專路235巷",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "楠梓區",
+               "short_name" : "楠梓區",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "高雄市",
+               "short_name" : "高雄市",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "台灣",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "811",
+               "short_name" : "811",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "811台灣高雄市楠梓區海專路235巷5號",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.7247446,
+               "lng" : 120.3127045
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7260935802915,
+                  "lng" : 120.3140534802915
+               },
+               "southwest" : {
+                  "lat" : 22.72339561970849,
+                  "lng" : 120.3113555197085
+               }
+            }
+         },
+         "place_id" : "EkpOby4gNSwgTGFuZSAyMzUsIEhhaXpodWFuIFJvYWQsIE5hbnppIERpc3RyaWN0LCBLYW9oc2l1bmcgQ2l0eSwgVGFpd2FuIDgxMSIaEhgKFAoSCQFXbUS8D240ERlNTVmaesm6EAU",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "45-35",
+               "short_name" : "45-35",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "瑞屏路82巷",
+               "short_name" : "瑞屏路82巷",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "楠梓區",
+               "short_name" : "楠梓區",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "高雄市",
+               "short_name" : "高雄市",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "台灣",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "811",
+               "short_name" : "811",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "811台灣高雄市楠梓區瑞屏路82巷45-35號",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7248849,
+                  "lng" : 120.3121911
+               },
+               "southwest" : {
+                  "lat" : 22.7244956,
+                  "lng" : 120.312051
+               }
+            },
+            "location" : {
+               "lat" : 22.724687,
+               "lng" : 120.3121101
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.72603923029151,
+                  "lng" : 120.3134700302915
+               },
+               "southwest" : {
+                  "lat" : 22.7233412697085,
+                  "lng" : 120.3107720697085
+               }
+            }
+         },
+         "place_id" : "ChIJizpBWbwPbjQRdg6ZD_pc-64",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "瑞屏里",
+               "short_name" : "瑞屏里",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "楠梓區",
+               "short_name" : "楠梓區",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "高雄市",
+               "short_name" : "高雄市",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "台灣",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "811",
+               "short_name" : "811",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "811台灣高雄市楠梓區瑞屏里",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7296084,
+                  "lng" : 120.3160394
+               },
+               "southwest" : {
+                  "lat" : 22.7164392,
+                  "lng" : 120.2981323
+               }
+            },
+            "location" : {
+               "lat" : 22.7233448,
+               "lng" : 120.3075124
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7296084,
+                  "lng" : 120.3160394
+               },
+               "southwest" : {
+                  "lat" : 22.7164392,
+                  "lng" : 120.2981323
+               }
+            }
+         },
+         "place_id" : "ChIJr0IckaIPbjQR7V1muziIftg",
+         "types" : [ "administrative_area_level_4", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "811",
+               "short_name" : "811",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "楠梓區",
+               "short_name" : "楠梓區",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "高雄市",
+               "short_name" : "高雄市",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "台灣",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "811台灣高雄市楠梓區",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7562173,
+                  "lng" : 120.3408181
+               },
+               "southwest" : {
+                  "lat" : 22.6947572,
+                  "lng" : 120.2549305
+               }
+            },
+            "location" : {
+               "lat" : 22.7175372,
+               "lng" : 120.3031871
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7562173,
+                  "lng" : 120.3408181
+               },
+               "southwest" : {
+                  "lat" : 22.6947572,
+                  "lng" : 120.2549305
+               }
+            }
+         },
+         "place_id" : "ChIJH8I4c6APbjQREbGYtUt5_DE",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "楠梓區",
+               "short_name" : "楠梓區",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "高雄市",
+               "short_name" : "高雄市",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "台灣",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "811",
+               "short_name" : "811",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "811台灣高雄市楠梓區",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7562173,
+                  "lng" : 120.3408181
+               },
+               "southwest" : {
+                  "lat" : 22.6947572,
+                  "lng" : 120.2549305
+               }
+            },
+            "location" : {
+               "lat" : 22.7175372,
+               "lng" : 120.3031871
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7562173,
+                  "lng" : 120.3408181
+               },
+               "southwest" : {
+                  "lat" : 22.6947572,
+                  "lng" : 120.2549305
+               }
+            }
+         },
+         "place_id" : "ChIJ5yYNc6APbjQRJarASHgR8a4",
+         "types" : [ "administrative_area_level_3", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "高雄",
+               "short_name" : "高雄",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "鼓山區",
+               "short_name" : "鼓山區",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "高雄市",
+               "short_name" : "高雄市",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "台灣",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "台灣高雄市鼓山區高雄",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.9170965,
+                  "lng" : 120.4856613
+               },
+               "southwest" : {
+                  "lat" : 22.4822129,
+                  "lng" : 120.1765147
+               }
+            },
+            "location" : {
+               "lat" : 22.6350591,
+               "lng" : 120.3355193
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.9170965,
+                  "lng" : 120.4856613
+               },
+               "southwest" : {
+                  "lat" : 22.4822129,
+                  "lng" : 120.1765147
+               }
+            }
+         },
+         "place_id" : "ChIJNUifIP0EbjQRCXzIhn0eUVQ",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "高雄市",
+               "short_name" : "高雄市",
+               "types" : [ "administrative_area_level_1", "locality", "political" ]
+            },
+            {
+               "long_name" : "台灣",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "台灣高雄市",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.4717267,
+                  "lng" : 121.0490147
+               },
+               "southwest" : {
+                  "lat" : 20.5170001,
+                  "lng" : 116.6665
+               }
+            },
+            "location" : {
+               "lat" : 22.6272784,
+               "lng" : 120.3014353
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.4717267,
+                  "lng" : 121.0490147
+               },
+               "southwest" : {
+                  "lat" : 20.5170001,
+                  "lng" : 116.6665
+               }
+            }
+         },
+         "place_id" : "ChIJG3R6elFDbjQRNypzVEqiJkg",
+         "types" : [ "administrative_area_level_1", "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "臺灣",
+               "short_name" : "臺灣",
+               "types" : [ "establishment", "natural_feature", "political" ]
+            },
+            {
+               "long_name" : "台灣",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "台灣臺灣",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.3011502,
+                  "lng" : 122.0069052
+               },
+               "southwest" : {
+                  "lat" : 21.8966958,
+                  "lng" : 120.0277765
+               }
+            },
+            "location" : {
+               "lat" : 23.9036873,
+               "lng" : 121.0793705
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.3011502,
+                  "lng" : 122.0069052
+               },
+               "southwest" : {
+                  "lat" : 21.8966958,
+                  "lng" : 120.0277765
+               }
+            }
+         },
+         "place_id" : "ChIJpcNhK8vVbjQRoH--QrDdIM8",
+         "types" : [ "establishment", "natural_feature", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "台灣",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "台灣",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 26.4545,
+                  "lng" : 123.5021012
+               },
+               "southwest" : {
+                  "lat" : 20.5170001,
+                  "lng" : 116.6665
+               }
+            },
+            "location" : {
+               "lat" : 23.69781,
+               "lng" : 120.960515
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 26.4545,
+                  "lng" : 123.5021012
+               },
+               "southwest" : {
+                  "lat" : 20.5170001,
+                  "lng" : 116.6665
+               }
+            }
+         },
+         "place_id" : "ChIJL1cHXAbzbjQRaVScvwTwEec",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
