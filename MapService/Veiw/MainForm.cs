@@ -21,8 +21,9 @@ namespace MapService
             service = new MapClinet(markersOverlay,this.gMapControl1);
             
         }
-        private void Alarm_btn_Click(object sender, EventArgs e)
+        private async void Alarm_btn_Click(object sender, EventArgs e)
         {
+            string addr = await service.GetAddress();
             this.Hide();
             reportForm.Show();
         }

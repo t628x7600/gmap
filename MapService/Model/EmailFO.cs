@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Net.Mail;
-using System.Threading.Tasks;
-using CULROC_Official.Models.ValueObject;
 
 namespace CULROC_Official.Models.FunctionObject
 {
@@ -48,15 +45,8 @@ namespace CULROC_Official.Models.FunctionObject
 
         private SendCompletedEventHandler SendCompeleted = null;
 
-        public EmailFO(EmailVO emailVO)
-        {
-            _mailMessage = new MailMessage();
-            this.SetRecipient(emailVO.Address);
-            _mailMessage.Subject = emailVO.Subject;
-            _mailMessage.Body = emailVO.Context;
-        }
 
-        public EmailFO(EmailVO emailVO, SendCompletedEventHandler sendCompeleted) : this(emailVO)
+        public EmailFO(SendCompletedEventHandler sendCompeleted)
         {
             SendCompeleted = sendCompeleted;
         }

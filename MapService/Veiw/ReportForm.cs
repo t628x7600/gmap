@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MapService.Model;
 
 namespace MapService.Veiw
 {
@@ -31,5 +32,14 @@ namespace MapService.Veiw
         {
 
         }
+
+        private void ReportForm_Shown(object sender, EventArgs e)
+        {
+        }
+
+        public void SetAddr()
+        {
+        }
+
     }
 }

@@ -136,7 +136,7 @@ namespace MapService.Model
             return result;
         }
 
-        private static async Task<string> GetAddressAsync(string apiStr)
+        private  async Task<string> GetAddressAsync(string apiStr)
         {
             using (HttpClient client = new HttpClient())
             {
@@ -148,7 +148,7 @@ namespace MapService.Model
                     string responseBody = await response.Content.ReadAsStringAsync();
                     // Above three lines can be replaced with new helper method below
                     // string responseBody = await client.GetStringAsync(uri);
-                    var result = JsonConvert.DeserializeObject<Dictionary<string, string>>(responseBody);
+                    var result = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseBody);
 
                     return responseBody;
                 }
@@ -159,10 +159,10 @@ namespace MapService.Model
             }
         }
 
-
-        public static string GetAddress()
+        
+        public  async Task<string> GetAddress()
         {
-            string result = await GeocoderAsync(GetPoint());
+            return  await GeocoderAsync(GetPoint());
         }
 
 
