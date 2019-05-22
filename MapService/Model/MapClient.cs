@@ -7,8 +7,9 @@ using GMap.NET;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
 using GMap.NET.MapProviders;
-
-
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Threading.Tasks;
 namespace MapService.Model
 {
     /// <summary>
@@ -112,7 +113,57 @@ namespace MapService.Model
             marker.ToolTip.TextPadding = new Size(20, 20);
         }
 
+        /// <summary>
+        /// 取得經緯度位置
+        /// </summary>
+        /// <returns></returns>
+        public PointLatLng GetPoint()
+        {
+            if (mapControl != null)
+                return mapControl.Position;
+            throw new ArgumentNullException("GMapControl is not create");
+        }
 
+        public async Task<string> GeocoderAsync(PointLatLng latLng)
+        {
+            string key = "AIzaSyA9cQx9K4sOFlibH61lujKHuGAokbEmy9g";
+            string googleApi = string.Format(@"https://maps.googleapis.com/maps/api/geocode/json?" +
+                $"latlng={latLng.Lat},{latLng.Lng}&key={key}");
+
+
+            string result = await GetAddressAsync(googleApi);
+
+            return result;
+        }
+
+        private static async Task<string> GetAddressAsync(string apiStr)
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                // Call asynchronous network methods in a try/catch block to handle exceptions
+                try
+                {
+                    HttpResponseMessage response = await client.GetAsync(apiStr);
+                    response.EnsureSuccessStatusCode();
+                    string responseBody = await response.Content.ReadAsStringAsync();
+                    // Above three lines can be replaced with new helper method below
+                    // string responseBody = await client.GetStringAsync(uri);
+                    var result = JsonConvert.DeserializeObject<Dictionary<string, string>>(responseBody);
+
+                    return responseBody;
+                }
+                catch (HttpRequestException e)
+                {
+                    throw e;
+                }
+            }
+        }
+
+
+        public static string GetAddress()
+        {
+            string result = await GeocoderAsync(GetPoint());
+        }
 
 
 
